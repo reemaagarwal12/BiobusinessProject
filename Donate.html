@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #e02f09;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*.active {
+  background-color: #4CAF50;
+}*/
+
+.form1
+{
+  padding-left: 20px;
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+
+</style>
+</head>
+<body>
+  <ul>
+		<li><a href="homePage.html">Home</a></li>
+    <li><a href="FindADonor.html">Find A Donor</a></li>
+    <li><a href="Donate.html">Donate</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="UpcomingEvents.html">Upcoming Events</a></li>
+		<li style="float: right;"><a href="index.html">Logout</a></li>
+	</ul>
+
+	<div>
+		<h2 style="padding: 10px;"><center>Donate</center></h2>
+	</div>
+	<div class="form1">
+		<form>
+			<div class="form-group">
+				<label for="exampleFormControlSelect1">Select your Blood Group</label>
+				<select class="form-control" id="exampleFormControlSelect1">
+					<option>Blood group</option>
+					<option>A+</option>
+					<option>B+</option>
+					<option>AB+</option>
+					<option>O+</option>
+					<option>O-</option>
+                    <option>A-</option>
+                    <option>B-</option>
+                    <option>AB-</option>
+                </select>
+            </div>
+            <div class="form-group">
+            	<label for="Name">Enter Name</label>
+            	<input class="form-control" id="Name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="DOB">Enter Date of Birth</label>
+                <input class="form-control" id="DOB" placeholder="DOB">
+            </div>
+            <div class="form-group">
+                <label for="city">Select City</label>
+                <input class="form-control" id="city" placeholder="City">
+            </div>
+            <div class="form-group">
+                <label for="contact">Enter Contact No</label>
+                <input class="form-control" id="contact" placeholder="Mobile No">
+            </div>
+            <div class="form-group">
+                 <label for="health">Any health Issues</label>
+                 <input class="form-control" id="health" placeholder="Issues if Any">
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #e02f09">Submit</button>
+        </form>
+    </div>
+    <div style="padding: 40px; float: right;">
+    	<img src="BloodDonateQuote.png" class="img-fluid" alt="Responsive image">
+    	<div>
+    		<br>
+    		<br>
+    		<br>
+    	</div>
+    	<img src="Blood-drop-with-text-thanks.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+</body>
+</html>
